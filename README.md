@@ -1,5 +1,9 @@
 # fplayer (Video player plugin for Flutter) Flutter 媒体播放器
 
+## 注意事项
+环境依赖 NDK21、Java17
+
+底层ijkplayer已配置使用本地，且在example/android中已提供android aar依赖文件，iOS请自行编译
 
 A Flutter media player plugin for iOS and android based on [fplayer-core](https://github.com/FlutterPlayer/ijkplayer)
 
